@@ -1,5 +1,7 @@
 """Simple API/scripting challenge for the Customer.io job application.
 
+Requires Python3.6.
+
 See: https://boards.greenhouse.io/customerio/jobs/918094
 
 Using the Github API and a scripting language of your choice answer
