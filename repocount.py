@@ -33,3 +33,8 @@ sorted_repos = sorted(repo_tuples, key=itemgetter(1), reverse=True)
 
 for r in sorted_repos:
     print(f'{r[0]}, last updated at: {r[1]}')
+
+sorted_by_watchers = sorted(repo_tuples, key=itemgetter(3), reverse=True)
+most_watched = sorted_by_watchers[0]
+
+print(f'Most watched repo: {most_watched[0]}, watchers: {most_watched[3]}')
